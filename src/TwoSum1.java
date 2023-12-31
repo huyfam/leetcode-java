@@ -1,7 +1,6 @@
 /*
- * Idea: Store complements of processed items in a HashMap. If a current item is in the HashMap, it 
- * is the complement of a processed item.  
- * Time: O(n). Space: O(n).
+ * Idea: Store complements of processed items in a HashMap. If a current item is in the HashMap, it
+ * is the complement of a processed item. Time: O(n). Space: O(n).
  */
 
 import java.util.Arrays;
@@ -27,7 +26,6 @@ public class TwoSum1 {
 
     public static void main(String[] args) {
         TwoSum1 sol = new TwoSum1();
-        System.out.println(Arrays.toString(
-                sol.twoSum(new int[] { 5, 1, 3, 8, 7, 6 }, 10))); // [2,4]
+        System.out.println(Arrays.toString(sol.twoSum(new int[] { 5, 1, 3, 8, 7, 6 }, 10))); // [2,4]
     }
 }
