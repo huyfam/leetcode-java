@@ -1,6 +1,7 @@
 /*
- * Idea: Use dfs to explore all possible combinations. Time: O(4^n). Space: O(n^2) for at most n
- * recursive calls in the call stack, each uses O(n) space for temporary combination.
+ * Idea: Use dfs to explore all possible combinations.
+ * 
+ * Time: O(4^n). Space: O(n^2) for recursive call stack.
  */
 
 import java.util.ArrayList;

@@ -2,7 +2,9 @@
  * Idea: Use 2 pointers left, right as the boundaries of the current substring. Try to expand the
  * substring by advancing the right boundary and move the left boundary accordingly to remove
  * duplication. At each iteration, maintain the loop invariant that the current substring is the
- * longest substring that ends at the right pointer. Time: O(n). Space: O(1).
+ * longest substring that ends at the right pointer.
+ * 
+ * Time: O(n). Space: O(1).
  */
 
 import java.util.Arrays;

@@ -1,6 +1,8 @@
 /*
  * Idea: Store complements of processed items in a HashMap. If a current item is in the HashMap, it
- * is the complement of a processed item. Time: O(n). Space: O(n).
+ * is the complement of a processed item.
+ * 
+ * Time: O(n). Space: O(n).
  */
 
 import java.util.Arrays;

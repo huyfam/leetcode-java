@@ -6,6 +6,7 @@
  * 
  * Time: O(n) since we either increase i or decrease j once and we do that n times. Space: O(1).
  */
+
 public class ContainerWithMostWater11 {
     public int maxArea(int[] height) {
         int maxArea = 0;

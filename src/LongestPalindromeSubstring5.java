@@ -1,6 +1,8 @@
 /*
  * Idea: Iterate over all possible center positions, try to expand the palindrome substring from the
- * center. Time: O(n^2). Space: O(1).
+ * center.
+ * 
+ * Time: O(n^2). Space: O(1).
  */
 
 public class LongestPalindromeSubstring5 {

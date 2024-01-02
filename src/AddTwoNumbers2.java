@@ -1,6 +1,8 @@
 /*
  * Idea: Use a dummy head to simplify implementation. Compute digits of the sum for each decimal
- * place while keep track of the carry. Time: O(|l1|+|l2|). Space: O(1).
+ * place while keep track of the carry.
+ * 
+ * Time: O(|l1|+|l2|). Space: O(1).
  */
 
 public class AddTwoNumbers2 {
