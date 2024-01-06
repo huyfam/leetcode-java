@@ -7,7 +7,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class LetterCombinationOfPhoneNumber17 {
+public class LetterCombinationsOfAPhoneNumber17 {
     private String[] phoneMap = new String[] { "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv",
             "wxyz" };
 
@@ -31,7 +31,7 @@ public class LetterCombinationOfPhoneNumber17 {
     }
 
     public static void main(String[] args) {
-        var sol = new LetterCombinationOfPhoneNumber17();
+        var sol = new LetterCombinationsOfAPhoneNumber17();
         System.out.println(sol.letterCombinations("23"));
         System.out.println("");
     }
